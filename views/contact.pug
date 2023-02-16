@@ -1,0 +1,19 @@
+extends layout.pug 
+
+block script 
+    script(src="/static/index.js") 
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/contact.css
+    link(rel='stylesheet', href='/static/phone.css', media='screen and (max-device-width: 1100px)')     
+block content 
+    div.container
+        H1 Contact Us
+        form.primary_font(action="/contact", method="post") 
+            <input type="text"class= “name” name="name" placeholder="Enter your name">
+            <input type="phone" class= “myInput” name="phone" placeholder="Enter your phone number">
+            <input type="email" class= “myInput” name="email" placeholder="Enter your email">
+            <input type="text" name="city" placeholder="Your city">
+            button.btn 
+                | Submit

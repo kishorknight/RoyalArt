@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Yeon+Sung&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* navigation bar section  */
+
+
+#logo {
+    display: flex;
+    /* flex-direction: column; */
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 35px;
+    filter: invert(100%);
+}
+
+#logo img {
+    height: inherit;
+    margin: 0px 5px;
+}
+
+
+#navbar {
+    background-color: rgb(208, 145, 228);
+    position: sticky;
+    top: 0%;
+    opacity: 1.1;
+}
+
+#navbar ul {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 23px;
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#navbar ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+/* intro_section */
+#intro_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/static/bg2.jpg) no-repeat center center/cover;
+    color: ghostwhite;
+    opacity: 0.923;
+    font-family: 'Merriweather', serif;
+    font-size: 4.3rem;
+    position: relative;
+    z-index: -1;
+    font-weight: bolder;
+}
+
+#quote {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* goal section  */
+
+#goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    background-color: #333131;
+    color: white;
+}
+#goals h2{
+    margin-top: 30px;
+}
+div#card{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div.card_section{
+    width: 31%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(161, 122, 198);
+}
+div.card_section h3{
+    margin-top: 10px;
+}
+div.card_section:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 7px  rebeccapurple;
+}
+div.image_para{
+    margin-top: 17px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.image_para img{
+    height:170px;
+
+}
+div.image_para p{
+    text-align: center;
+    margin-top: 7px;
+    padding: 1px 10px;
+    margin-bottom: 5px;
+}
+
+
+/* sponsor section  */
+#sponsors {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sponsors h2{
+    margin-top: 15px;
+}
+#sponsors .container{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+#sponsors .container img{
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+/* footer section  */
+footer {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* utility classes */
+.primary_font{
+    font-family: 'Merriweather', serif;
+}

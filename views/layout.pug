@@ -1,0 +1,24 @@
+//- layout.pug
+html
+  head
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    title Royal Art's
+    block script 
+    block style 
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/images/logo.jpg", alt="logo", srcset="")
+                | Royal Art's
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/#sponsors ") OurClients]
+            li #[a(href="/#goals") ClassInfo]
+            li #[a(href="/contact") ContactUs]
+    block content
+    block foot
+      footer 2023 Copywrite @Royal Art's | all right's reseverd 
+         

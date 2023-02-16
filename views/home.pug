@@ -1,0 +1,38 @@
+extends layout.pug 
+
+block script 
+    script(src="/static/index.js") 
+block style 
+    style 
+        include ../static/style.css 
+    link(rel='stylesheet', href='/static/phone.css', media='screen and (max-device-width: 1100px)')
+block content
+        section#intro_section 
+            div Welcome to Royal Art's 
+            div#quote There are painters who transform the sun into a yellow spot, but there are others who,thanks to their art and intelligence, transform a yellow spot into the sun
+        section#goals.primary_font
+            h2 Our Goals
+            div#card 
+                div.card_section
+                    h3 Lorem ipsum dolo
+                    div.image_para 
+                        img(src="/static/images/img1.jpg", alt="logo", srcset="")
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quidem fuga nulla consequatur, molestias architecto ipsa impedit repellat error dicta aspernatur. Aliquam omnis officia voluptate quam molestias eos voluptatibus quod. 
+                div.card_section
+                    h3 Lorem ipsum dolo
+                    div.image_para 
+                        img(src="/static/images/img2.jpg", alt="logo", srcset="")
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quidem fuga nulla consequatur, molestias architecto ipsa impedit repellat error dicta aspernatur. Aliquam omnis officia voluptate quam molestias eos voluptatibus quod.
+                div.card_section
+                    h3 Lorem ipsum dolo
+                    div.image_para 
+                        img(src="/static/images/img3.jpg", alt="logo", srcset="")
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quidem fuga nulla consequatur, molestias architecto ipsa impedit repellat error dicta aspernatur. Aliquam omnis officia voluptate quam molestias eos voluptatibus quod.
+        section#sponsors 
+            h2 our sponsors 
+            div.container 
+                img(src="/static/images/logo1.png",alt="logo", srcset="")
+                img(src="/static/images/logo2.png",alt="logo", srcset="")
+                img(src="/static/images/logo3.png",alt="logo", srcset="")
+                img(src="/static/images/logo4.png",alt="logo", srcset="")
+                img(src="/static/images/logo5.png",alt="logo", srcset="")

@@ -1,0 +1,111 @@
+/* navbar section  */
+#navbar {
+    /* width: 100%; */
+    position: sticky;
+    top: 0%;
+}
+#navbar ul{
+    height: 70px;
+}
+#navbar ul li a {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+#logo {
+    height: 45px;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#logo img {
+    height: inherit;
+    margin: 0px;
+}
+
+/* intro section  */
+#intro_section {
+    height: 70vh;
+    font-size: 1.9rem;
+    color: #e91e63;
+}
+#quote{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+}
+/* goal section  */
+#goals {
+    height: 90vh;
+}
+div#card{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+div.card_section{
+    width: 85%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+div.image_para{
+    margin-top: 17px;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+div.image_para img{
+    height:70px;
+    width: 70px;
+    margin-left: 5px;
+}
+div.card_section h3{
+    font-size: 0.9rem;
+    margin: 3px;
+}
+div.image_para p{
+    text-align: center;
+    margin-top: 5px;
+    padding: 1px 5px;
+    margin-bottom: 3px;
+    font-size: 0.7rem;
+}
+
+/* sponsor section  */
+#sponsors{
+    height: 250px;
+}
+#sponsors .container{
+    margin-top: 23px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sponsors .container img{
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* contact section  */
+form input{
+    font-size: 12.5px;
+    margin: 7px;
+}
+.btn{
+    font-size: 12.5px;
+}
+
+
+/* footer section  */
+footer{
+    font-size: 0.8rem;
+}
